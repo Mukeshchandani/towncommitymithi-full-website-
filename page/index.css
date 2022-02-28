@@ -1,0 +1,390 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Header design start */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+  }
+  #bimage{
+    background-image: url(./img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  header {
+    height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    transition: 0.6s;
+    background: linear-gradient(35deg,#61676e,#1854a1);
+  }
+  header.sticky{
+    background: linear-gradient(35deg,#232931,#1854a1);
+    background-color: #232931;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.425); 
+  }
+  header.sticky .logo{
+    color: #ffffff;
+  }
+  header.sticky .navlinks li a{
+    color: #ffffff;
+  }
+  header.sticky .navlinks li a:hover{
+    color: #000000;
+    padding-bottom: 7px;
+    color: #ffffffc4;
+    border-bottom: 2px solid #ffffffc4;
+    transition: 0.5s;
+  }
+  header.sticky .menu-btn{
+    color: white;
+  }
+  .logo {
+    font-family: 'Great Vibes', sans-serif;
+    color: #ffffff;
+    line-height: 43px;
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 900;
+    text-decoration: none;
+    padding: 15px 10px;
+    margin: 0px 16px 0px 0px;
+  }
+  .logo:hover{
+    text-decoration: none;
+  }
+  .navlinks {
+    list-style: none;
+    float:right;
+    line-height: 43px;
+  }
+  .navlinks li {
+    display: inline-block;
+    padding: 11.2px 20px;
+  }
+  
+  .navlinks li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.6s;
+  }
+  
+  .navlinks li a:hover {
+    color: #000000;
+    padding-bottom: 7px;
+    color: #ffffff;
+    border-bottom: 2px solid #1854a1;
+  }
+  .navlinks li a:active {
+    color: #ffffff;
+    padding-bottom: 7px;
+    border-bottom: 2px solid #1854a1;
+  }
+  .navlinks li a:focus{
+    color: #ffffff;
+    padding-bottom: 7px;
+    border-bottom: 2px solid #1854a1;
+  }
+
+#logo22{
+    width: 155px;
+    margin-top: -50px;
+}
+
+
+
+#loginbutton{
+  border-color: white !important;
+  color: white;
+}
+
+
+
+#loginbutton1{
+  border-color: white !important;
+  color: white;
+  margin-left: 20px;
+}
+
+
+
+#text1{
+  /* justify-content: left; */
+  margin-left: -100px;
+}
+
+#TEXT{
+  color: linear-gradient(35deg,#61676e,#1854a1) !important;
+
+}
+
+#buttoN{
+  background: linear-gradient(35deg,#757474,#1854a1)!important;
+  color: white !important;
+  border-color: linear-gradient(35deg,#757474,#03472b)!important;
+  font-size: 15px;
+  border: none !important;
+  text-decoration: none;
+  color: white;
+
+}
+
+#LInKS{
+  text-decoration: none;
+  color: white;
+}
+
+#for_width{
+  width: 40% !important;
+  /* height: 3px; */
+  margin-left: 10px;
+}
+#img{
+  width: 40px;
+  background-color: #1854a1;
+}
+
+
+#BoxM-div{
+  display: flex;
+  justify-content: row;
+}
+
+#bilab{
+  width: 380px;
+  height: 2px;
+}
+
+#waterissue{
+  width: 280px;
+  height: 285px;
+}
+
+#button011{
+  padding-left: 75px;
+  padding-right: 75px;
+
+
+}
+
+
+#box011{
+  margin-left: 20px;
+}
+
+
+#box_22{
+  margin-left: 22px;
+
+}
+
+
+/* Footer design css */
+
+#maindivodheader {
+  background: linear-gradient(35deg,#757474,#1854a1);
+  margin-top: 200px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+}
+
+#fontfirststyle {
+  color: white;
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 70px;
+  /* font-weight: bold; */
+}
+
+#footerr {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+#fordeco {
+  color: white;
+}
+
+#video {
+  margin-left: 60px;
+}
+
+#videolist {
+  border: 2px solid black;
+  float: right;
+  margin-top: -700px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+
+#footerpages00 a {
+  color: white;
+  text-decoration: none;
+  line-height: 30px;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* letter-spacing: 5px; */
+}
+
+#logoofFooter{
+  width: 290px;
+}
+
+
+/*3rd Section css */
+
+
+#fontstyl {
+  color: white;
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: -230px;
+  /* margin-left: 40px; */
+  /* font-weight: bold; */
+  margin-top: 10px;
+  margin-left: 18px;
+  font-weight: 500;
+}
+
+
+#seconsec {
+  color: white;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 5px;
+  margin-left: 18px;
+  margin-top: 40px;
+}
+
+#list01 {
+  list-style-image: url(./images/locationIcon.b74f8668.svg);
+  /* margin-left: -3px; */
+  color: white;
+  font-size: 12px;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#list02 {
+  list-style-image: url(./images/callIcon.0400ce9f.svg);
+  /* margin-left: -3px; */
+  color: white;
+  font-size: 12px;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+
+#fontstyl12 {
+  color: white;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 70px;
+  margin-left: 18px;
+}
+
+
+#fontstyl1278 {
+  color: white;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 70px;
+  margin-left: 1px;
+}
+
+
+/* #mainlist02 {
+  margin-left: 400px;
+  margin-top: -350px;
+  width: 32%;
+  font-size: 1px;
+  line-height: 20px;
+} */
+
+
+#mainlist02{
+  line-height: 15px;
+  margin-top: 76px;
+  margin-left: 100px;
+}
+
+
+.icons1{
+  width: 30px;
+}
+
+
+#social12{
+  margin-left: 400px;
+  margin-top: -260px;
+}
+
+
+
+#social{
+  margin-left: 450px;
+  margin-top: -210px;
+}
+
+/* Home page design our */
+
+
+/* About page design */
+
+#LineOne1{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 50px;
+
+}
+
+
+#mahesh{
+  justify-content: center;
+  display: flex;
+  justify-items: center;
+  margin-left: 487px;
+  width: 135px;
+  border-radius: 100%;
+  height: 140px;
+}
+
+#Formaintain{
+  width: 920px;
+  margin-left: 110px;
+}
+
+
+#container-fluid{
+  margin-top: -100px;
+}
+
+#linkbut{
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+}
+
+
+#Login{
+  text-decoration: none;
+  color: white;
+  
+}

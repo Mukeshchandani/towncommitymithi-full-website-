@@ -1,0 +1,63 @@
+#main4444 {
+  margin-top: 180px;
+  /* border: 1px solid black; */
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  /* font-weight: bolder; */
+  font-size: 40px;
+  width: 100% !important;
+  display: flex;
+  justify-items: center;
+}
+
+#FoR {
+  width: 50%;
+  /* margin-left: 300px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 310px;
+}
+
+#town {
+  margin-left: 430px;
+  font-size: 40px;
+}
+
+#suBMIT {
+  margin-left: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+  background: linear-gradient(35deg, #61676e, #1854a1);
+}
+
+#linKS {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#mb4 {
+  width: 0%;
+}
+
+/* #FoRWID{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+#inPut {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  justify-items: center;
+  margin-left: 550px;
+}
+
+#Login{
+  text-decoration: none;
+  color: white;
+  
+}

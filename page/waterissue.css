@@ -1,0 +1,121 @@
+#main4444 {
+  margin-top: 180px;
+  /* border: 1px solid black; */
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  /* font-weight: bolder; */
+  font-size: 40px;
+  width: 100% !important;
+  display: flex;
+  justify-items: center;
+}
+
+#FoR {
+  width: 50%;
+  /* margin-left: 300px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 310px;
+}
+
+#town {
+  margin-left: 430px;
+  font-size: 40px;
+}
+
+#suBMIT {
+  margin-left: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+  background: linear-gradient(35deg, #61676e, #1854a1);
+}
+
+#linKS {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#mb4 {
+  width: 0%;
+}
+
+/* #FoRWID{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  } */
+
+#inPut {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  justify-items: center;
+  margin-left: 550px;
+}
+
+/* page design satrt  */
+
+#imG {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  margin-left: 275px;
+  /* padding-top: -120px; */
+}
+
+#Heading {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 110px;
+  width: 800px;
+  justify-items: center;
+  /* border-radius: 20px , 10px; */
+  border-radius: 5px;
+  align-items: center;
+  background-image: linear-gradient(rgb(12, 51, 134), rgb(119, 119, 119));
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 20px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+#mainDIV {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding-top: 20px;
+}
+
+#data {
+  width: 50%;
+  margin-left: 270px;
+}
+
+#man1 {
+  width: 40px;
+  border-radius: 20%;
+  margin-top: -5px;
+}
+
+#input {
+  /* width: 40px; */
+  height: 40px;
+  width: 300px;
+  /* border-radius: 1%; */
+}
+
+#MAINDiv {
+  margin-left: 270px;
+}
+
+#Login {
+  text-decoration: none;
+  color: white;
+}

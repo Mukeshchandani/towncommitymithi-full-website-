@@ -1,0 +1,56 @@
+#main4444{
+    margin-top: 180px;
+    /* border: 1px solid black; */
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-weight: bolder; */
+    font-size: 40px;
+}
+
+
+#imgmah{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#imgmahesh{
+    width: 150px;
+    margin-top: 40px;
+    border-radius: 400px;
+    height: 155px;
+    
+}
+
+
+#cast{
+    font-size: 13px;
+}
+
+
+#second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+
+#text1{
+    width: 1000px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#Login{
+    text-decoration: none;
+    color: white;
+    
+}
